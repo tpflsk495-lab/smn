@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*초기화*/
+/* root 10px */
+html{font-size: 62.5%;}
+
+/*여백초기화*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/*밑줄 없애기, 글자색 지정*/
+a{text-decoration: none; color: inherit;}
+
+/*불릿기호 없애기*/
+ol, ul{list-style: none;}
+
+/*이미지 라인하이트 없애기*/
+img{vertical-align: middle;}
+
+/* 폼요소 초기화 */
+button, select, input, textarea{vertical-align: middle;}
+
+/* 표 초기화 */
+table{border-collapse: collapse; width: 100%;}
+
+/* 텍스트 관련 요소 초기화 */
+address, caption, em { font-weight: normal; font-style: normal; }
+
+/* 웹브라우저에서 숨김 처리 */
+caption, legend, hr { display: none; }
+
+/* 폼요소 설정 초기화 */
+fieldset, input, select, textarea, button { font-family: inherit; font-size: inherit; vertical-align: middle; border: 0; }

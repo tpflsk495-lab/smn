@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+
+
+@font-face {
+    font-family: "Belgiano";
+    src: url(../font/Belgiano-Serif-2.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
